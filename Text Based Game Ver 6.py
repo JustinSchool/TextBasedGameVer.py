@@ -228,4 +228,10 @@ fasttext("\nYou interrogate him.\nDo you ATTACK him or play BRAIN games")
 while True:
     method = input("\n\n-")
     if method == "ATTACK":
-        fasttext("\nYou ")
+        fasttext("\nYou throw a book at the suspect and you ask for his name")
+        break
+    elif method == "BRAIN":
+        fasttext("\nYou show him pictures of his family and ask for his name")
+        break
+    elif method == "HELP":
+        print("You have two options, ""ATTACK"""" or """"Brain"")
