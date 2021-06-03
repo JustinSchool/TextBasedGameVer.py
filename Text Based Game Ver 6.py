@@ -223,4 +223,4 @@ while True:
         print("You have two options, ""CHASE"" and ""RUN""")
     else:
         banana()
-fasttext("\nYou handcuff the suspect and detain himaaaa")
+fasttext("\nYou handcuff the suspect and detain him")
