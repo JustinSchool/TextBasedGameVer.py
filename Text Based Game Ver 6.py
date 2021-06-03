@@ -224,3 +224,4 @@ while True:
     else:
         banana()
 fasttext("\nYou handcuff the suspect and detain him")
+fasttext("\nYou interrogate him.\nDo you attack him or play brain games")
