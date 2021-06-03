@@ -234,7 +234,7 @@ while True:
         fasttext("\nYou show him pictures of his family and ask for his name")
         break
     elif method == "HELP":
-        print("You have two options, ""ATTACK"""" or """"Brain"")
+        print("You have two options, ""ATTACK"""" or """"Brain""")
     else:
         banana()
 speech("\nMy name is Steven please don't hurt me")
