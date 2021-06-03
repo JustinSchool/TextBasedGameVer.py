@@ -238,4 +238,4 @@ while True:
     else:
         banana()
 speech("\nMy name is Steven please don't hurt me")
-speech("\n")
+speech("\nI'll speak if you don't do anything to my family")
