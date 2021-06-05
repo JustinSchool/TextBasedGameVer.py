@@ -169,8 +169,7 @@ fasttext(
     "\nThe attackers are on high alert and are searching for you. You press the panic button and your backup is called.\nYour backup arrives and a firefight commences")
 fasttext("\nYou go to the headquarters with a prisoner. He is sent off for questioning")
 print("\nJoseph: ")
-speech(
-    "Good work out there, we couldn't have done it without you. I have a theory with all the crime tho...\nCome with me. All of this crime is based around the inner city and it is in a shape.\n I'll show you the map.")
+speech("Good work out there, we couldn't have done it without you. I have a theory with all the crime tho...\nCome with me. All of this crime is based around the inner city and it is in a shape.\n I'll show you the map.")
 print("\n")
 MAP()
 speech("You see?")
@@ -178,8 +177,9 @@ while True:
     l=input("\n\n-")
     if any(l in c for c in [YES, NO]):
         speech("\nYou see its weird that it would be shaped like that.")
-    elif any(z in n for n in [HELP]):
-        print("")
+        break
+    elif l == "HELP":
+        print("You have two options ""Yes"" or ""No""")
         break
     else:
         banana()
@@ -190,7 +190,7 @@ dramatic("\nYou organise a stakeout...")
 print("\nYou:")
 speech("\nHey Joseph, want to help me uncover the criminals")
 print("\nJoseph:")
-speech("\nAnything for you boss...")
+speech("Anything for you boss...")
 dramatic("\nThe next day...")
 speech(
     "\nYou travel to the location of where you think the next crime will take place.\nYou arrive and you sit in a van by a bush and you get hungry do you get MCDONALDS or KFC")
@@ -239,3 +239,6 @@ while True:
         banana()
 speech("\nMy name is Steven please don't hurt me")
 speech("\nI'll speak if you don't do anything to my family")
+print("\nYou: ")
+speech("Why were you sneaking around")
+print("\nSteven: ")
