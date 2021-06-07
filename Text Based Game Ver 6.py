@@ -273,3 +273,33 @@ fasttext("\n\n\n\n\n")
 dramatic("Chapter 2: The Fight")
 fasttext("\n\n\n")
 speech("You call Steven, you ask him about the upcoming plans with The Harlem")
+print("\nYou: ")
+speech("Hello Steven any upcoming plans with The Harlem")
+print("\nSteven: ")
+speech("Yes actually, The Harlem is planning to rob the JPMorgan Chase Bank in Park Ave NYC in a week")
+fasttext("\n\nDo you BELIEVE Steven or do you NOT")
+while True:
+    bank = input("\n\n-")
+    if bank == "BELIEVE":
+        speech("\nYou get on the phone with Joseph")
+        print("\nYou: ")
+        speech("I have gotten info from a gang member that there will be a robbery at Park Ave in the JPM Bank in about a week")
+        print("\nSteven: ")
+        speech("Lets get ready then")
+        speech("\nDo you get the SWAT or the MILITARY involved")
+        while True:
+            weapons = input("\n\n-")
+            if weapons == "SWAT":
+                speech("\nLets get the swat involved")
+                break
+            elif weapons == "MILITARY":
+                speech("\nLets get the military involved")
+                break
+            else:
+                banana()
+        break
+    elif bank == "NOT":
+        speech("test")
+        break
+    else:
+        banana()
