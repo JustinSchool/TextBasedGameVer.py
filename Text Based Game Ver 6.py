@@ -1,9 +1,10 @@
-# run in idle only
+ # run in idle only
 # import stuff
 import time
-from time import sleep
 import sys
-# arrays
+from time import sleep
+
+ # arrays
 YES = ["YES", "yes", "Yes", "y"]
 NO = ["NO", "No", "no", "n"]
 HELP = ["HELP","Help","help"]
@@ -55,26 +56,26 @@ def MAP():
 
 
 # =======================================================================================================
-# slow text code i totally didnt steal
+# slow text code i totally didn't steal
 def slowtext(text):
     for char in text:
         sleep(0.04)
         sys.stdout.write(char)
 
 
-# fast text code i totally didnt steal
+# fast text code i totally didn't steal
 def fasttext(text):
     for char in text:
         sleep(0.025)
         sys.stdout.write(char)
-    # more text code i didnt steal!!
+    # more text code i didn't steal!!
 
 
 def dramatic(text):
     for char in text:
         sleep(0.05)
         sys.stdout.write(char)
-        # more text code i didnt steal!!
+        # more text code i didn't steal!!
 
 
 def speech(text):
@@ -85,7 +86,7 @@ def speech(text):
 
 # =======================================================================================================
 fasttext(
-    "Instructions \nWhen the text written in captial letters, this is a selectable option\nWhen ""-"" is displayed it means you can type your option\nand make sure to have caps lock on\nType HELP for help")
+    "Instructions \nWhen the text written in capital letters, this is a selectable option\nWhen ""-"" is displayed it means you can type your option\nand make sure to have caps lock on\nType HELP for help")
 slowtext("\nType START the begin your journey... ")
 ####
 while True:
@@ -98,7 +99,7 @@ while True:
         print("Please Type START ")
 fasttext("\n\nYou are currently stationed in Brooklyn \nyour first mission is to explore the alleyways.")
 
-dramatic("\n\n\n\nChapter 1 Your First Mission")
+dramatic("\n\n\n\nChapter 1: Your First Mission")
 
 fasttext(
     "\n\nYou are a detective in Brooklyn it’s 9pm and you hear loud bangs.\nWhat do you do? Do you IGNORE the bang or INVESTIGATE?")
@@ -243,8 +244,32 @@ print("\nYou: ")
 speech("Why were you sneaking around")
 print("\nSteven: ")
 speech("I was looking around...")
-print("You: ")
+print("\nYou: ")
 speech("For what?")
-print("Steven: ")
-print("You: ")
+print("\nSteven: ")
+print("\nYou: ")
 speech("Answer me")
+print("\nSteven: ")
+speech("Ok ok ok fine, I work with the underground gang its called The Harlem\nWe hate the law...")
+print("\nYou: ")
+speech("Interesting... Now why are you guys taking hostages and blowing buildings up?")
+print("\nSteven: ")
+speech("We do it to make a point")
+print("\nYou: ")
+speech("What's the point?")
+print("\nSteven: ")
+speech("I don't know, I got roped into this. I don't like it either but I'm forced to do it")
+print("\nYou: ")
+speech("Do you know how we can stop it?")
+print("\nSteven: ")
+speech("Yes but it'll be hard...")
+print("\nYou: ")
+speech("How hard")
+print("\nSteven: ")
+speech("Lives WILL be lost...")
+print("\nYou: ")
+speech("Lets do it")
+fasttext("\n\n\n\n\n")
+dramatic("Chapter 2: The Fight")
+fasttext("\n\n\n")
+speech("You call Steven, you ask him about the upcoming plans with The Harlem")
