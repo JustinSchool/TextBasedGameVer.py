@@ -302,4 +302,4 @@ while True:
         speech("test")
         break
     else:
-        banana()
+        banana() t
