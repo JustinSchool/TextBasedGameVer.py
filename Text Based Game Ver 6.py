@@ -291,11 +291,48 @@ while True:
             weapons = input("\n\n-")
             if weapons == "SWAT":
                 speech("\nLets get the swat involved")
-
+                speech("\nDays go by and you are stationed at the scene")
+                slowtext("\nYou are under cover surveying the area for The Harlem")
+                dramatic("\n\nHours go by...")
+                slowtext("\nThere is a sign of something abnormal going on...")
+                speech("\nYou notice a group of men walking into the bank")
+                speech("\nWhat do you do? QUESTION or WAIT")
+                while True:
+                    group = input("\n\n-")
+                    if group == "QUESTION":
+                        slowtext("\nYou stop the men and ask them what's going on.\nThey tell you they're just withdrawing money")
+                        print("\nYou: ")
+                        speech("How much are you withdrawing?                                          ")
+                        print("\nMan: ")
+                        speech("Enough                                ")
+                        speech("\nThe man pulls a handgun and points it towards your head.")
+                        dramatic("\n\nHe pulls the trigger...")
+                        break
+                    elif group == "WAIT":
+                        slowtext("\nThe men walk into the bank you hear gunshots and alarms are ringing")
+                        slowtext("\nThe men have killed everyone in the bank... You failed")
+                        break
+                    elif group == "HELP":
+                        print("You have two options ""QUESTION"" and ""WAIT""")
                 break
             elif weapons == "MILITARY":
-                speech("\nLets get the military involved")
+                speech("\nLets get the military involved                   ")
+                print("\nJoseph: ")
+                speech("Alright good idea.                             ")
+                speech("\n\nA couple days go by and you make the call to prepare for the robbery.                            ")
+                speech("\nThe military sets up inside the bank and are ready for action.                                  ")
+                speech("\nThree masked men walk into the bank and orders everybody to get on the ground and to throw their valuables toward them.                   ")
+                speech("\nThe three men instantly get tazed and handcuffed.           ")
+                dramatic("\n\n")
+                speech("\nThe men are held in individual sound isolating prison cells for a week      ")
+                print("\nJoseph: ")
+                speech("Hey boss we need you here to interrogate these idiots           ")
+                print("\nYou: ")
+                speech("\nUgh fine...       ")
+
                 break
+            elif weapons == "HELP":
+                print("You have two options ""SWAT"" and ""MILITARY""")
             else:
                 banana()
         break
@@ -304,5 +341,7 @@ while True:
         dramatic("\nYou get fired")
         dramatic("\nGame Over")
         break
+    elif bank == "HELP":
+        print("You have two options ""BELIEVE"" and ""NOT""")
     else:
         banana()
