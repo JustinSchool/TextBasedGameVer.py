@@ -5,7 +5,7 @@ import sys
 from time import sleep
 
  # arrays
-YES = ["YES", "yes", "Yes", "y"]
+YES = ["YES", "yes", "Yes", "y","Y","YE","ye","yeah","YEAH","SI","si","oui","OUI,","是的"]
 NO = ["NO", "No", "no", "n"]
 HELP = ["HELP","Help","help"]
 # =======================================================================================================
@@ -329,8 +329,71 @@ while True:
                 speech("Hey boss we need you here to interrogate these idiots           ")
                 print("\nYou: ")
                 speech("\nUgh fine...       ")
-
-                break
+                speech("\nYou arrive at the interrogation room            ")
+                print("\nYou: ")
+                speech("What do we want from this guy?")
+                print("\nJoseph: ")
+                speech("Everything")
+                fasttext("\nYou enter the interrogation room do you pull out a GUN or NOT        ")
+                while True:
+                    room = input("\n\n-")
+                    if room == "GUN":
+                        speech("\nYou bring a gun to the interrogation room, and you place it on the table infront of the suspect")
+                        print("\nYou: ")
+                        speech("It's your life or your silence...          ")
+                        speech("\nYou pick up the gun and ask for his name")
+                        print("\nSuspect: ")
+                        speech("You think that'll scare me? It's probably a fake gun      ")
+                        speech("\nYou cock the gun and shoot the wall")
+                        print("\nSuspect: ")
+                        fasttext("YOU'RE CRAZY\nOk ok my name is Sam             ")
+                        print("\nYou: ")
+                        fasttext("Why were you robbing the bank?         ")
+                        print("\nSam: ")
+                        speech("We hate America")
+                        print("\nYou: ")
+                        speech("Why")
+                        print("\nSam: ")
+                        speech("Your president is a nutcase")
+                        print("\nYou: ")
+                        speech("Our? Where are you from")
+                        print("\nSam: ")
+                        speech("Russia")
+                        print("\nYou: ")
+                        speech("Are you a terrorist organisation")
+                        break
+                    elif room == "NOT":
+                        speech("\nYou walk into the room and ask the suspect for his name")
+                        print("\nSuspect: ")
+                        speech("I'll never tell you     ")
+                        speech("\nYou leave the room and come back with a gun and you place it on the table")
+                        speech("\nYou pick up the gun and ask for his name")
+                        print("\nSuspect: ")
+                        speech("You think that'll scare me? It's probably a fake gun      ")
+                        speech("\nYou cock the gun and shoot the wall")
+                        print("\nSuspect: ")
+                        fasttext("YOU'RE CRAZY\nOk ok my name is Sam             ")
+                        print("\nYou: ")
+                        fasttext("Why were you robbing the bank?         ")
+                        print("\nSam: ")
+                        speech("We hate America")
+                        ########
+                        print("\nYou: ")
+                        speech("Why")
+                        print("\nSam: ")
+                        speech("Your president is a nutcase")
+                        print("\nYou: ")
+                        speech("Our? Where are you from")
+                        print("\nSam: ")
+                        speech("Russia")
+                        print("\nYou: ")
+                        speech("Are you a terrorist organisation")
+                        break
+                    elif room == HELP:
+                        print("You have two options ""GUN"" and ""NOT""")
+                    else:
+                        banana()
+                   break
             elif weapons == "HELP":
                 print("You have two options ""SWAT"" and ""MILITARY""")
             else:
