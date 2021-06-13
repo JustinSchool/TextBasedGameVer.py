@@ -360,7 +360,49 @@ while True:
                         print("\nSam: ")
                         speech("Russia")
                         print("\nYou: ")
-                        speech("Are you a terrorist organisation")
+                        speech("Are you a terrorist organisation     ")
+                        print("\nSam: ")
+                        speech("No we are a group of people with the same interests         ")
+                        print("\nYou: ")
+                        speech("What do you guys want           ")
+                        print("\nSam: ")
+                        speech("For everybody to know us           ")
+                        print("\nYou: ")
+                        speech("You guys have already done that          ")
+                        print("\nSam: ")
+                        speech("We also want a new government         ")
+                        print("\nYou: ")
+                        speech("You can just leave       ")
+                        print("\nSam: ")
+                        speech("Not anymore     ")
+                        print("\nYou: ")
+                        speech("You guys are international prisoners       ")
+                        print("\nYou: ")
+                        speech("I know, you want to join us?")
+                        while True:
+                            criminal = input("\n\n-")
+                            if criminal == "YES":
+                                print("\nYou: ")
+                                speech("Did you really have the guts to ask me that?          ")
+                                print("\nSam: ")
+                                speech("Yes           \nSo do you want to?      ")
+                                print("\nYou: ")
+                                speech("What do I get out of it?")
+                                print("\nSam: ")
+                                speech("Money, a lot of it...        ")
+                                print("\nYou: ")
+                                speech("I'm interested...        ")
+                                break
+                            elif criminal == "NO":
+                                print("\nYou: ")
+                                speech("Hell no")
+                                fasttext("\nSam confesses he is the leader of the group and you lock him up.          ")
+                                dramatic("\nThe END...")
+                                break
+                            elif criminal == "HELP":
+                                print("You have two options ""YES"" and ""NO""")
+                            else:
+                                banana()
                         break
                     elif room == "NOT":
                         speech("\nYou walk into the room and ask the suspect for his name")
@@ -387,13 +429,59 @@ while True:
                         print("\nSam: ")
                         speech("Russia")
                         print("\nYou: ")
-                        speech("Are you a terrorist organisation")
+                        speech("Are you a terrorist organisation            ")
+                        print("\nSam: ")
+                        speech("No we are a group of people with the same interests         ")
+                        print("\nYou: ")
+                        speech("What do you guys want           ")
+                        print("\nSam: ")
+                        speech("For everybody to know us           ")
+                        print("\nYou: ")
+                        speech("You guys have already done that          ")
+                        print("\nSam: ")
+                        speech("We also want a new government         ")
+                        print("\nYou: ")
+                        speech("You can just leave       ")
+                        print("\nSam: ")
+                        speech("Not anymore     ")
+                        print("\nYou: ")
+                        speech("You guys are international prisoners       ")
+                        print("\nYou: ")
+                        speech("I know, you want to join us?")
+                        while True:
+                            criminal = input("\n\n-")
+                            if criminal == "YES":
+                                print("\nYou: ")
+                                speech("Did you really have the guts to ask me that?          ")
+                                print("\nSam: ")
+                                speech("Yes           \nSo do you want to?      ")
+                                print("\nYou: ")
+                                speech("What do I get out of it?")
+                                print("\nSam: ")
+                                speech("Money, a lot of it...        ")
+                                print("\nYou: ")
+                                speech("I'm interested...        ")
+                                print("\nSam: ")
+                                speech("Joining the dark side now?            ")
+                                print("\nYou: ")
+                                speech("Keep it a secret     ")
+                                break
+                            elif criminal == "NO":
+                                print("\nYou: ")
+                                speech("Hell no")
+                                fasttext("\nSam confesses he is the leader of the group and you lock him up.          ")
+                                dramatic("\nThe END...")
+                                break
+                            elif criminal == "HELP":
+                                print("You have two options ""YES"" and ""NO""")
+                            else:
+                                banana()
                         break
                     elif room == HELP:
                         print("You have two options ""GUN"" and ""NOT""")
                     else:
                         banana()
-                   break
+                    break
             elif weapons == "HELP":
                 print("You have two options ""SWAT"" and ""MILITARY""")
             else:
