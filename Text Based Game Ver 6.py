@@ -512,7 +512,7 @@ while True:
                                 print("\nYou: ")
                                 speech("How are we doing it?     ")
                                 print("\nSam: ")
-                                speech("")
+                                speech("We are going to walk in and walk out...\nSimple     ")
                                 break
                             elif criminal == "NO":
                                 print("\nYou: ")
