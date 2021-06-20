@@ -417,18 +417,51 @@ while True:
                                 print("\nYou: ")
                                 speech("How are we doing it?     ")
                                 print("\nSam: ")
-                                speech("")
-                                break
-                            elif criminal == "NO":
-                                print("\nYou: ")
-                                speech("Hell no")
-                                fasttext("\nSam confesses he is the leader of the group and you lock him up.          ")
-                                dramatic("\nThe END...")
-                                break
-                            elif criminal == "HELP":
-                                print("You have two options ""YES"" and ""NO""")
-                            else:
-                                banana()
+                                speech("We are going to walk in and walk out...\nSimple     ")
+                                slowtext("\n\nDays go by and you get a call from Sam    ")
+                                print("\nSam: ")
+                                speech("Yeah hey so we've done some scouting and by chance do you know how to hack?")
+                                while True:
+                                    hacking = input("\n\n-")
+                                    if hacking == "YES":
+                                        print("\nSam: ")
+                                        speech("Alright good      ")
+                                        print("\nYou: ")
+                                        speech("What's the plan?    ")
+                                        print("\nSam: ")
+                                        speech(
+                                            "So you will hack the cameras and freeze the cameras, and hack open the vault doors\nAnd we will dress up as bank employees and walk in and get the money         ")
+                                        slowtext("\n6 Months go by and you are prepared to do the heist")
+                                        print("\nSam: ")
+                                        speech("We are ready meet up in the warehouse and start hacking       ")
+                                        print("\nYou: ")
+                                        speech("Alright  ")
+                                        slowtext("You hack into the cameras and open the vault    ")
+                                        print("\nSam: ")
+                                        speech("Get in the van we gotta start to go     ")
+                                        slowtext(
+                                            "\nYou walk into the bank and walk into the bank trying to avoid suspicion")
+                                        print("\nSam: ")
+                                        speech("Grab the money HURRY   ")
+                                        fasttext(
+                                            "\nYou run out the back of the bank and run into the van and drive into the warehouse")
+                                        print("\nSam: ")
+                                        speech("Bro we did it    ")
+                                        print("\nYou: ")
+                                        speech("What are we going to do with this money?              ")
+                                        print("\nSam: ")
+                                        speech("Whatever we want    ")
+                                        ################################################################################
+                                        break
+                                    elif hacking == "NO":
+                                        print("\nSam: ")
+                                        speech("Ugh damn alright we'll have to go in loud")
+                                        break
+                                    elif hacking == "HELP":
+                                        print("You have two options ""YES"" and ""NO""")
+                                    else:
+                                        banana()
+                                        ################################################################################
                         break
                     elif room == "NOT":
                         speech("\nYou walk into the room and ask the suspect for his name")
@@ -513,6 +546,46 @@ while True:
                                 speech("How are we doing it?     ")
                                 print("\nSam: ")
                                 speech("We are going to walk in and walk out...\nSimple     ")
+                                slowtext("\n\nDays go by and you get a call from Sam    ")
+                                print("\nSam: ")
+                                speech("Yeah hey so we've done some scouting and by chance do you know how to hack?")
+                                while True:
+                                    hacking = input("\n\n-")
+                                    if hacking == "YES":
+                                        print("\nSam: ")
+                                        speech("Alright good      ")
+                                        print("\nYou: ")
+                                        speech("What's the plan?    ")
+                                        print("\nSam: ")
+                                        speech("So you will hack the cameras and freeze the cameras, and hack open the vault doors\nAnd we will dress up as bank employees and walk in and get the money         ")
+                                        slowtext("\n6 Months go by and you are prepared to do the heist")
+                                        print("\nSam: ")
+                                        speech("We are ready meet up in the warehouse and start hacking       ")
+                                        print("\nYou: ")
+                                        speech("Alright  ")
+                                        slowtext("You hack into the cameras and open the vault    ")
+                                        print("\nSam: ")
+                                        speech("Get in the van we gotta start to go     ")
+                                        slowtext("\nYou walk into the bank and walk into the bank trying to avoid suspicion")
+                                        print("\nSam: ")
+                                        speech("Grab the money HURRY   ")
+                                        fasttext("\nYou run out the back of the bank and run into the van and drive into the warehouse")
+                                        print("\nSam: ")
+                                        speech("Bro we did it    ")
+                                        print("\nYou: ")
+                                        speech("What are we going to do with this money?              ")
+                                        print("\nSam: ")
+                                        speech("Whatever we want    ")
+                                        break
+                                    elif hacking == "NO":
+                                        print("\nSam: ")
+                                        speech("Ugh damn alright we'll have to go in loud")
+                                        break
+                                    elif hacking == "HELP":
+                                        print("You have two options ""YES"" and ""NO""")
+                                    else:
+                                        banana()
+                                        #################
                                 break
                             elif criminal == "NO":
                                 print("\nYou: ")
