@@ -1,4 +1,4 @@
- # run in idle only
+
 # import stuff
 import time
 import sys
@@ -88,7 +88,7 @@ def speech(text):
 fasttext(
     "Instructions \nWhen the text written in capital letters, this is a selectable option\nWhen ""-"" is displayed it means you can type your option\nand make sure to have caps lock on\nType HELP for help")
 slowtext("\nType START the begin your journey... ")
-####
+####repetition
 while True:
     start = input("\n-")
     if start == "START":
@@ -238,6 +238,7 @@ while True:
         print("You have two options, ""ATTACK"""" or """"Brain""")
     else:
         banana()
+#sequence
 speech("\nMy name is Steven please don't hurt me")
 speech("\nI'll speak if you don't do anything to my family")
 print("\nYou: ")
@@ -451,17 +452,83 @@ while True:
                                         speech("What are we going to do with this money?              ")
                                         print("\nSam: ")
                                         speech("Whatever we want    ")
-                                        ################################################################################
                                         break
                                     elif hacking == "NO":
                                         print("\nSam: ")
                                         speech("Ugh damn alright we'll have to go in loud")
-                                        break
-                                    elif hacking == "HELP":
-                                        print("You have two options ""YES"" and ""NO""")
-                                    else:
-                                        banana()
-                                        ################################################################################
+                                        print("\nYou: ")
+                                        speech("How do we do that?      ")
+                                        print("\nSam: ")
+                                        speech("It'll take a lot of planning     ")
+                                        print("\nYou: ")
+                                        speech("How much?    ")
+                                        print("\nSam: ")
+                                        speech("Around a year  ")
+                                        speech("\nWhat do we do? Do we use EXPLOSIVES or GUNS")
+                                        while True:
+                                            loud = input("\n\n-")
+                                            if loud == "EXPLOSIVES":
+                                                speech("\nI'll add explosives to the shopping list     ")
+                                                speech("\nWhat's our getaway vehicle? TRUCK or SUPERCAR")
+                                                while True:
+                                                    vehicle = input("\n\n-")
+                                                    if vehicle == "TRUCK":
+                                                        speech("\nIts going to be massive")
+                                                        break
+                                                    elif vehicle == "SUPERCAR":
+                                                        speech("\nQuick but dangerous getaway")
+                                                        break
+                                                    elif vehicle == "HELP":
+                                                        print("You have two options ""TRUCK"" and ""SUPERCAR""")
+                                                    else:
+                                                        banana()
+                                                break
+                                            elif loud == "GUNS":
+                                                speech("\nI'll find some guns somewhere     ")
+                                                speech("\nWhat's our getaway vehicle? TRUCK or SUPERCAR")
+                                                while True:
+                                                    vehicle = input("\n\n-")
+                                                    if vehicle == "TRUCK":
+                                                        speech("\nIts going to be massive")
+                                                        speech("\nIs our disguise going to be FANCY or CASUAL")
+                                                        while True:
+                                                            clothing = input("\n\n-")
+                                                            if clothing == "FANCY":
+                                                                speech(
+                                                                    "\nWe are going to look rich going in and richer coming out")
+                                                                break
+                                                            elif clothing == "CASUAL":
+                                                                speech(
+                                                                    "\nWe'll look like ordinary people pulling a withdrawal")
+                                                                break
+                                                            elif clothing == "HELP":
+                                                                print("You have two options ""FANCY"" and ""CASUAL""")
+                                                            else:
+                                                                banana()
+                                                        break
+                                                    elif vehicle == "SUPERCAR":
+                                                        speech("\nQuick but dangerous getaway")
+                                                        speech("\nIs our disguise going to be FANCY or CASUAL")
+                                                        while True:
+                                                            clothing = input("\n\n-")
+                                                            if clothing == "FANCY":
+                                                                speech(
+                                                                    "\nWe are going to look rich going in and richer coming out")
+                                                                break
+                                                            elif clothing == "CASUAL":
+                                                                speech(
+                                                                    "\nWe'll look like ordinary people pulling a withdrawal")
+                                                                break
+                                                            elif clothing == "HELP":
+                                                                print("You have two options ""FANCY"" and ""CASUAL""")
+                                                            else:
+                                                                banana()
+                                                        break
+                                                    elif vehicle == "HELP":
+                                                        print("You have two options ""TRUCK"" and ""SUPERCAR""")
+                                                    else:
+                                                        banana()
+                                            #################
                         break
                     elif room == "NOT":
                         speech("\nYou walk into the room and ask the suspect for his name")
@@ -580,6 +647,107 @@ while True:
                                     elif hacking == "NO":
                                         print("\nSam: ")
                                         speech("Ugh damn alright we'll have to go in loud")
+                                        print("\nYou: ")
+                                        speech("How do we do that?      ")
+                                        print("\nSam: ")
+                                        speech("It'll take a lot of planning     ")
+                                        print("\nYou: ")
+                                        speech("How much?    ")
+                                        print("\nSam: ")
+                                        speech("Around a year  ")
+                                        speech("\nWhat do we do? Do we use EXPLOSIVES or GUNS")
+                                        while True:
+                                            loud = input("\n\n-")
+                                            if loud == "EXPLOSIVES":
+                                                speech("\nI'll add explosives to the shopping list     ")
+                                                speech("\nWhat's our getaway vehicle? TRUCK or SUPERCAR")
+                                                while True:
+                                                    vehicle = input("\n\n-")
+                                                    if vehicle == "TRUCK":
+                                                        speech("\nIts going to be massive")
+                                                        break
+                                                    elif vehicle == "SUPERCAR":
+                                                        speech("\nQuick but dangerous getaway")
+                                                        break
+                                                    elif vehicle == "HELP":
+                                                        print("You have two options ""TRUCK"" and ""SUPERCAR""")
+                                                    else:
+                                                        banana()
+                                                break
+                                            elif loud == "GUNS":
+                                                speech("\nI'll find some guns somewhere     ")
+                                                speech("\nWhat's our getaway vehicle? TRUCK or SUPERCAR")
+                                                while True:
+                                                    vehicle = input("\n\n-")
+                                                    if vehicle == "TRUCK":
+                                                        speech("\nIts going to be massive")
+                                                        speech("\nIs our disguise going to be FANCY or CASUAL")
+                                                        while True:
+                                                            clothing = input("\n\n-")
+                                                            if clothing == "FANCY":
+                                                                speech("\nWe are going to look rich going in and richer coming out")
+                                                                break
+                                                            elif clothing == "CASUAL":
+                                                                speech("\nWe'll look like ordinary people pulling a withdrawal")
+                                                                break
+                                                            elif clothing == "HELP":
+                                                                print("You have two options ""FANCY"" and ""CASUAL""")
+                                                            else:
+                                                                banana()
+                                                        break
+                                                    elif vehicle == "SUPERCAR":
+                                                        speech("\nQuick but dangerous getaway")
+                                                        speech("\nIs our disguise going to be FANCY or CASUAL")
+                                                        while True:
+                                                            clothing = input("\n\n-")
+                                                            if clothing == "FANCY":
+                                                                speech("\nWe are going to look rich going in and richer coming out")
+                                                                speech("\nDo we enter the bank from the FRONT or the BACK?")
+                                                                while True:
+                                                                    entrance = input("\n\n-")
+                                                                    if entrance == "FRONT":
+                                                                        speech("\nIt'll be a simple walk in walk out...     ")
+                                                                        break
+                                                                    elif entrance == "BACK":
+                                                                        speech("\nWe have to enter at night     ")
+                                                                        break
+                                                                    elif entrance == "HELP":
+                                                                        print("You have two options ""FRONT"" and ""BACK""")
+                                                                    else:
+                                                                        banana()
+                                                                break
+                                                            elif clothing == "CASUAL":
+                                                                speech("\nWe'll look like ordinary people pulling a withdrawal")
+                                                                speech(
+                                                                    "\nDo we enter the bank from the FRONT or the BACK?")
+                                                                while True:
+                                                                    entrance = input("\n\n-")
+                                                                    if entrance == "FRONT":
+                                                                        speech(
+                                                                            "\nIt'll be a simple walk in walk out...     ")
+                                                                        break
+                                                                    elif entrance == "BACK":
+                                                                        speech("\nWe have to enter at night     ")
+                                                                        break
+                                                                    elif entrance == "HELP":
+                                                                        print("You have two options ""FRONT"" and ""BACK""")
+                                                                    else:
+                                                                        banana()
+                                                                break
+                                                            elif clothing == "HELP":
+                                                                print("You have two options ""FANCY"" and ""CASUAL""")
+                                                            else:
+                                                                banana()
+                                                        break
+                                                    elif vehicle == "HELP":
+                                                        print("You have two options ""TRUCK"" and ""SUPERCAR""")
+                                                    else:
+                                                        banana()
+                                                break
+                                            elif loud == "HELP":
+                                                print("You have two options ""EXPLOSIVES"" and ""GUNS""")
+                                            else:
+                                                banana()
                                         break
                                     elif hacking == "HELP":
                                         print("You have two options ""YES"" and ""NO""")
