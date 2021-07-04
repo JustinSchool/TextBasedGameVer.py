@@ -718,8 +718,7 @@ while True:
                                                                 break
                                                             elif clothing == "CASUAL":
                                                                 speech("\nWe'll look like ordinary people pulling a withdrawal")
-                                                                speech(
-                                                                    "\nDo we enter the bank from the FRONT or the BACK?")
+                                                                speech("\nDo we enter the bank from the FRONT or the BACK?")
                                                                 while True:
                                                                     entrance = input("\n\n-")
                                                                     if entrance == "FRONT":
@@ -728,6 +727,7 @@ while True:
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
+                                                                        speech("\nIf we get caught we're done for snooping around the back      ")
                                                                         break
                                                                     elif entrance == "HELP":
                                                                         print("You have two options ""FRONT"" and ""BACK""")
