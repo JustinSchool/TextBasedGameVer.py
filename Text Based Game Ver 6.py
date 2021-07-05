@@ -514,22 +514,62 @@ while True:
                                                             if clothing == "FANCY":
                                                                 speech(
                                                                     "\nWe are going to look rich going in and richer coming out")
+                                                                speech(
+                                                                    "\nDo we enter the bank from the FRONT or the BACK?")
+                                                                while True:
+                                                                    entrance = input("\n\n-")
+                                                                    if entrance == "FRONT":
+                                                                        speech(
+                                                                            "\nIt'll be a simple walk in walk out...     ")
+                                                                        break
+                                                                    elif entrance == "BACK":
+                                                                        speech("\nWe have to enter at night     ")
+                                                                        speech(
+                                                                            "\nIf we get caught we're done for snooping around the back      ")
+                                                                        speech(
+                                                                            "\nA year goes by and you are prepared to execute the plan")
+                                                                        speech(
+                                                                            "\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
+                                                                        speech(
+                                                                            "\nThe night security catches you and you get arrested.")
+                                                                        break
+                                                                    elif entrance == "HELP":
+                                                                        print(
+                                                                            "You have two options ""FRONT"" and ""BACK""")
+                                                                    else:
+                                                                        banana()
                                                                 break
                                                             elif clothing == "CASUAL":
                                                                 speech(
                                                                     "\nWe'll look like ordinary people pulling a withdrawal")
-                                                                break
-                                                            elif clothing == "HELP":
-                                                                print("You have two options ""FANCY"" and ""CASUAL""")
-                                                            else:
-                                                                banana()
-                                                        break
-                                                    elif vehicle == "HELP":
-                                                        print("You have two options ""TRUCK"" and ""SUPERCAR""")
-                                                    else:
-                                                        banana()
+                                                                speech(
+                                                                    "\nDo we enter the bank from the FRONT or the BACK?")
+                                                                while True:
+                                                                    entrance = input("\n\n-")
+                                                                    if entrance == "FRONT":
+                                                                        speech(
+                                                                            "\nIt'll be a simple walk in walk out...     ")
+                                                                        break
+                                                                    elif entrance == "BACK":
+                                                                        speech("\nWe have to enter at night     ")
+                                                                        speech(
+                                                                            "\nIf we get caught we're done for snooping around the back      ")
+                                                                        speech(
+                                                                            "\nA year goes by and you are prepared to execute the plan")
+                                                                        speech(
+                                                                            "\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
+                                                                        speech(
+                                                                            "\nThe night security catches you and you get arrested.")
+                                                                        dramatic("\n\nYou fail     ")
+                                                                        ####################
+                                                                        break
+                                                                    elif entrance == "HELP":
+                                                                        print(
+                                                                            "You have two options ""FRONT"" and ""BACK""")
+                                                                    else:
+                                                                        banana()
                                             #################
-                        break
+                                        break
                     elif room == "NOT":
                         speech("\nYou walk into the room and ask the suspect for his name")
                         print("\nSuspect: ")
@@ -710,6 +750,14 @@ while True:
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
+                                                                        speech(
+                                                                            "\nIf we get caught we're done for snooping around the back      ")
+                                                                        speech(
+                                                                            "\nA year goes by and you are prepared to execute the plan")
+                                                                        speech(
+                                                                            "\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
+                                                                        speech(
+                                                                            "\nThe night security catches you and you get arrested.")
                                                                         break
                                                                     elif entrance == "HELP":
                                                                         print("You have two options ""FRONT"" and ""BACK""")
@@ -728,6 +776,11 @@ while True:
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
                                                                         speech("\nIf we get caught we're done for snooping around the back      ")
+                                                                        speech("\nA year goes by and you are prepared to execute the plan")
+                                                                        speech("\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
+                                                                        speech("\nThe night security catches you and you get arrested.")
+                                                                        dramatic("\n\nYou fail     ")
+                                                                        ####################
                                                                         break
                                                                     elif entrance == "HELP":
                                                                         print("You have two options ""FRONT"" and ""BACK""")
@@ -753,8 +806,7 @@ while True:
                                         print("You have two options ""YES"" and ""NO""")
                                     else:
                                         banana()
-                                        #################
-                                break
+                                    break
                             elif criminal == "NO":
                                 print("\nYou: ")
                                 speech("Hell no")
@@ -765,12 +817,12 @@ while True:
                                 print("You have two options ""YES"" and ""NO""")
                             else:
                                 banana()
-                        break
+                            break
                     elif room == HELP:
                         print("You have two options ""GUN"" and ""NOT""")
                     else:
                         banana()
-                    break
+                break
             elif weapons == "HELP":
                 print("You have two options ""SWAT"" and ""MILITARY""")
             else:
