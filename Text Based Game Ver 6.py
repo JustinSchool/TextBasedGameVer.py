@@ -549,6 +549,7 @@ while True:
                                                                     if entrance == "FRONT":
                                                                         speech(
                                                                             "\nIt'll be a simple walk in walk out...     ")
+                                                                        speech("\nWe will need t")
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
