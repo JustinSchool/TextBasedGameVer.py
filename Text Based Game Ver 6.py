@@ -549,7 +549,17 @@ while True:
                                                                     if entrance == "FRONT":
                                                                         speech(
                                                                             "\nIt'll be a simple walk in walk out...     ")
-                                                                        speech("\nWe will need t")
+                                                                        speech("\nWe will need to be discrete    ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nHow many people are coming?       ")
+                                                                        print("\nSam: ")
+                                                                        speech("\nJust us two\nMore people the more chance of being caught     ")
+                                                                        speech("\n\nYou walk into the bank and take note of all the security cameras      ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nThere aren't many cameras   ")
+                                                                        print("\nSam: ")
+                                                                        speech("\nSurprising           ")
+                                                                        ###########
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
@@ -773,6 +783,18 @@ while True:
                                                                     if entrance == "FRONT":
                                                                         speech(
                                                                             "\nIt'll be a simple walk in walk out...     ")
+                                                                        speech("\nWe will need to be discrete    ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nHow many people are coming?       ")
+                                                                        print("\nSam: ")
+                                                                        speech(
+                                                                            "\nJust us two\nMore people the more chance of being caught     ")
+                                                                        speech(
+                                                                            "\n\nYou walk into the bank and take note of all the security cameras      ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nThere aren't many cameras   ")
+                                                                        print("\nSam: ")
+                                                                        speech("\nSurprising           ")
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
