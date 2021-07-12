@@ -532,6 +532,7 @@ while True:
                                                                             "\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
                                                                         speech(
                                                                             "\nThe night security catches you and you get arrested.")
+                                                                        dramatic("\nYou Fail   ")
                                                                         break
                                                                     elif entrance == "HELP":
                                                                         print(
@@ -546,6 +547,7 @@ while True:
                                                                     "\nDo we enter the bank from the FRONT or the BACK?")
                                                                 while True:
                                                                     entrance = input("\n\n-")
+                                                                    entrance = input("\n\n-")
                                                                     if entrance == "FRONT":
                                                                         speech(
                                                                             "\nIt'll be a simple walk in walk out...     ")
@@ -553,12 +555,27 @@ while True:
                                                                         print("\nYou: ")
                                                                         speech("\nHow many people are coming?       ")
                                                                         print("\nSam: ")
-                                                                        speech("\nJust us two\nMore people the more chance of being caught     ")
-                                                                        speech("\n\nYou walk into the bank and take note of all the security cameras      ")
+                                                                        speech(
+                                                                            "\nJust us two\nMore people the more chance of being caught     ")
+                                                                        speech(
+                                                                            "\n\nYou walk into the bank and take note of all the security cameras      ")
                                                                         print("\nYou: ")
                                                                         speech("\nThere aren't many cameras   ")
                                                                         print("\nSam: ")
                                                                         speech("\nSurprising           ")
+                                                                        dramatic(
+                                                                            "\nThe next week you get a call from an unknown number...    ")
+                                                                        print("\nUnknown Number: ")
+                                                                        speech(
+                                                                            "\nI've been following you. If you don't do what I tell you       ")
+                                                                        speech(
+                                                                            "\nWhen you get into the bank you are going\nto steal the money     ")
+                                                                        speech(
+                                                                            "\nAfter you steal the money you will want to drive to 473 Wall St  ")
+                                                                        speech(
+                                                                            "\nWhen you get there you will dump the money there.    ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nWhat if I don't     ")
                                                                         ###########
                                                                         break
                                                                     elif entrance == "BACK":
@@ -769,6 +786,7 @@ while True:
                                                                             "\nYou pick the lock at the back of the bank and set an alarm off.\nThe back area of the bank goes into complete lockdown.      ")
                                                                         speech(
                                                                             "\nThe night security catches you and you get arrested.")
+                                                                        dramatic("\nYou Fail")
                                                                         break
                                                                     elif entrance == "HELP":
                                                                         print("You have two options ""FRONT"" and ""BACK""")
@@ -795,6 +813,14 @@ while True:
                                                                         speech("\nThere aren't many cameras   ")
                                                                         print("\nSam: ")
                                                                         speech("\nSurprising           ")
+                                                                        dramatic("\nThe next week you get a call from an unknown number...    ")
+                                                                        print("\nUnknown Number: ")
+                                                                        speech("\nI've been following you. If you don't do what I tell you       ")
+                                                                        speech("\nWhen you get into the bank you are going\nto steal the money     ")
+                                                                        speech("\nAfter you steal the money you will want to drive to 473 Wall St  ")
+                                                                        speech("\nWhen you get there you will dump the money there.    ")
+                                                                        print("\nYou: ")
+                                                                        speech("\nWhat if I don't     ")
                                                                         break
                                                                     elif entrance == "BACK":
                                                                         speech("\nWe have to enter at night     ")
