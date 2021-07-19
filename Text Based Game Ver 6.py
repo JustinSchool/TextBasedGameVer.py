@@ -552,6 +552,20 @@ while True:
                                                                         speech("\nSo I don't have a choice...      ")
                                                                         dramatic("\n\n\n3 Months Later...      ")
                                                                         speech("\nYou and Sam walk into the bank")
+                                                                        speech(
+                                                                            "\nSam distracts one of the bank workers by asking for the bathroom\nYou sneak into the back and plant explosives onto the vault door     ")
+                                                                        speech(
+                                                                            "\nSam plants flares to trigger the fire alarms       ")
+                                                                        speech(
+                                                                            "\nThe fire alarms go off and you blow the vault door open                                 ")
+                                                                        speech(
+                                                                            "\nYou run into the vault and fill your bag with cash while Sam is distracting the crowd    ")
+                                                                        speech(
+                                                                            "\nYou run out and signal Sam to leave       ")
+                                                                        speech(
+                                                                            "\nThe bank did not realise they had just been robbed\n You and Sam evacuate along with the others.      ")
+                                                                        dramatic(
+                                                                            "\n\n\nYou hide for the next 3 years and move to Monaco.     ")
                                                                         #################
                                                                         break
                                                                     elif entrance == "BACK":
@@ -614,6 +628,20 @@ while True:
                                                                         speech("\nSo I don't have a choice...      ")
                                                                         dramatic("\n\n\n3 Months Later...      ")
                                                                         speech("\nYou and Sam walk into the bank")
+                                                                        speech(
+                                                                            "\nSam distracts one of the bank workers by asking for the bathroom\nYou sneak into the back and plant explosives onto the vault door     ")
+                                                                        speech(
+                                                                            "\nSam plants flares to trigger the fire alarms       ")
+                                                                        speech(
+                                                                            "\nThe fire alarms go off and you blow the vault door open                                 ")
+                                                                        speech(
+                                                                            "\nYou run into the vault and fill your bag with cash while Sam is distracting the crowd    ")
+                                                                        speech(
+                                                                            "\nYou run out and signal Sam to leave       ")
+                                                                        speech(
+                                                                            "\nThe bank did not realise they had just been robbed\n You and Sam evacuate along with the others.      ")
+                                                                        dramatic(
+                                                                            "\n\n\nYou hide for the next 3 years and move to Monaco.     ")
                                                                         ###########
                                                                         break
                                                                     elif entrance == "BACK":
@@ -845,6 +873,20 @@ while True:
                                                                         speech("\nSo I don't have a choice...      ")
                                                                         dramatic("\n\n\n3 Months Later...      ")
                                                                         speech("\nYou and Sam walk into the bank")
+                                                                        speech(
+                                                                            "\nSam distracts one of the bank workers by asking for the bathroom\nYou sneak into the back and plant explosives onto the vault door     ")
+                                                                        speech(
+                                                                            "\nSam plants flares to trigger the fire alarms       ")
+                                                                        speech(
+                                                                            "\nThe fire alarms go off and you blow the vault door open                                 ")
+                                                                        speech(
+                                                                            "\nYou run into the vault and fill your bag with cash while Sam is distracting the crowd    ")
+                                                                        speech(
+                                                                            "\nYou run out and signal Sam to leave       ")
+                                                                        speech(
+                                                                            "\nThe bank did not realise they had just been robbed\n You and Sam evacuate along with the others.      ")
+                                                                        dramatic(
+                                                                            "\n\n\nYou hide for the next 3 years and move to Monaco.     ")
                                                                         ##########
                                                                         break
                                                                     elif entrance == "BACK":
@@ -898,6 +940,13 @@ while True:
                                                                         speech("\nSo I don't have a choice...      ")
                                                                         dramatic("\n\n\n3 Months Later...      ")
                                                                         speech("\nYou and Sam walk into the bank")
+                                                                        speech("\nSam distracts one of the bank workers by asking for the bathroom\nYou sneak into the back and plant explosives onto the vault door     ")
+                                                                        speech("\nSam plants flares to trigger the fire alarms       ")
+                                                                        speech("\nThe fire alarms go off and you blow the vault door open                                 ")
+                                                                        speech("\nYou run into the vault and fill your bag with cash while Sam is distracting the crowd    ")
+                                                                        speech("\nYou run out and signal Sam to leave       ")
+                                                                        speech("\nThe bank did not realise they had just been robbed\n You and Sam evacuate along with the others.      ")
+                                                                        dramatic("\n\n\nYou hide for the next 3 years and move to Monaco.     ")
                                                                         #########
                                                                         break
                                                                     elif entrance == "BACK":
